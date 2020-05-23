@@ -4,12 +4,10 @@ import com.studentapp.model.StudentPojo;
 import com.studentapp.testbase.TestBase;
 import com.studentapp.utils.TestUtils;
 import io.restassured.http.ContentType;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Title;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
 import java.util.ArrayList;
@@ -22,7 +20,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by Jay
  */
-@RunWith(SerenityRunner.class)
+//@RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class StudentCURDTest extends TestBase {
 
