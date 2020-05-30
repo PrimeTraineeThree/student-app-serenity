@@ -1,18 +1,16 @@
 package com.studentapp.studentinfo;
 
 import com.studentapp.constants.EndPoints;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Title;
 import net.thucydides.core.annotations.WithTag;
 import net.thucydides.core.annotations.WithTags;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 /**
  * Created by Jay
  */
-@RunWith(SerenityRunner.class)
+//@RunWith(SerenityRunner.class)
 public class TagsTest {
 
     @WithTag("studentrfeature:NEGATIVE")

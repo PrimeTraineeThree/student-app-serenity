@@ -2,12 +2,10 @@ package com.studentapp.studentinfo;
 
 import com.studentapp.testbase.TestBase;
 import com.studentapp.utils.TestUtils;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
 import java.util.ArrayList;
@@ -20,7 +18,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by Jay
  */
-@RunWith(SerenityRunner.class)
+//@RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class StudentCURDTestWithSteps extends TestBase {
 
